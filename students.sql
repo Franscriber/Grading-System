@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2024 at 08:28 PM
+-- Generation Time: Jul 08, 2024 at 06:56 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -46,8 +46,7 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`student_id`, `firstname`, `lastname`, `subject`, `class_participation`, `quizzes`, `major_exam`, `attendance`, `midterm_exam`, `final_exam`, `final_grade`) VALUES
-(90, 'gg', 'ggg', 'gggg', 90, 92, 91, 93, 94, 95, 2344.2),
-(92, 'eqeq', 'weqeqe', 'eeqeq', 86, 88, 87, 89, 94, 96, 932);
+(1, 'francisww', 'quiambaoqq', 'ap', 225, 23, 25, 57, 367, 75, 957.6);
 
 --
 -- Indexes for dumped tables
@@ -67,7 +66,7 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `student_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
+  MODIFY `student_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4125;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
